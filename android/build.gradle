@@ -49,6 +49,9 @@ repositories {
         url "https://maven.google.com"
     }
 }
+project.ext {
+    excludeAppGlideModule = true
+}
 
 dependencies {
     //noinspection GradleDynamicVersion
